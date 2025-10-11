@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootcamp DevOps 3 Bulan - Nusa Infra</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <meta name="description" content="Bootcamp DevOps 3 Bulan dari Nusa Infra: Program intensif untuk menguasai Linux, Git, CI/CD, Docker, Kubernetes, dan monitoring. Dapatkan keterampilan DevOps lengkap dengan proyek hands-on." />
+    <meta name="keywords" content="Bootcamp DevOps, Training DevOps 3 Bulan, Kursus Kubernetes, Belajar Docker Indonesia, Mentoring CI/CD, Nusa Infra" />
+    <meta name="author" content="Nusa Infra" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://nusainfra.com/bootcamp-devops.html" />
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Bootcamp DevOps 3 Bulan - Nusa Infra" />
+    <meta property="og:description" content="Program intensif DevOps selama 3 bulan untuk pengembangan keterampilan lengkap di Linux, Git, CI/CD, Docker, Kubernetes, dan monitoring." />
+    <meta property="og:image" content="https://nusainfra.com/img/devops.jpg" />
+    <meta property="og:url" content="https://nusainfra.com/bootcamp-devops.html" />
+    <meta property="og:site_name" content="Nusa Infra" />
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:title" content="Bootcamp DevOps 3 Bulan - Nusa Infra" />
+    <meta property="twitter:description" content="Bootcamp DevOps intensif 3 bulan: Kuasai infrastruktur modern dengan hands-on projects." />
+    <meta property="twitter:image" content="https://nusainfra.com/img/devops.jpg" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Course",
+      "name": "Bootcamp DevOps 3 Bulan",
+      "description": "Program intensif DevOps selama 3 bulan untuk pengembangan keterampilan lengkap di Linux, Git, CI/CD, Docker, Kubernetes, dan monitoring.",
+      "provider": {
+        "@type": "Organization",
+        "name": "Nusa Infra",
+        "url": "https://nusainfra.com"
+      },
+      "hasCourseInstance": {
+        "@type": "CourseInstance",
+        "courseMode": "online",
+        "duration": "P3M"
+      },
+      "coursePrerequisites": "Dasar pemrograman dan sistem operasi",
+      "teaches": [
+        "DevOps",
+        "Kubernetes",
+        "Docker",
+        "CI/CD"
+      ]
+    }
+    </script>
+</head>
+<body>
+    <div class="hidden md:flex bg-gray-900 py-2 px-4 text-sm fixed w-full top-0 z-20">
+        <div class="flex justify-between items-center w-full">
+            <div class="flex space-x-4">
+                <a href="https://linkedin.com/in/nusainfra" target="_blank" class="text-gray-400 hover:text-blue-600 transition duration-300">
+                    <i class="fab fa-linkedin text-lg"></i>
+                </a>
+                <a href="https://wa.me/6283827936085" target="_blank" class="text-gray-400 hover:text-green-600 transition duration-300">
+                    <i class="fab fa-whatsapp text-lg"></i>
+                </a>
+                <a href="mailto:nusa.infra@gmail.com" class="text-gray-400 hover:text-red-600 transition duration-300">
+                    <i class="fas fa-envelope text-lg"></i>
+                </a>
+                <a href="https://instagram.com/nusainfra" target="_blank" class="text-gray-400 hover:text-pink-600 transition duration-300">
+                    <i class="fab fa-instagram text-lg"></i>
+                </a>
+            </div>
+            <div class="flex space-x-4">
+                <span class="text-gray-400 flex items-center">
+                    <i class="fas fa-envelope mr-1"></i> nusa.infra@gmail.com
+                </span>
+                <span class="text-gray-400 flex items-center">
+                    <i class="fab fa-whatsapp mr-1"></i> 0838 2793 6085
+                </span>
+            </div>
+        </div>
+    </div>
+    <nav class="bg-white text-gray-900 p-4 fixed w-full top-0 md:top-10 z-10 shadow-md border-b border-gray-200">
+        <div class="max-w-6xl mx-auto flex justify-between items-center">
+            <div>
+                <h1 class="text-xl font-bold text-gray-900">
+                    <a href="index.html" class="flex items-center hover:text-gray-700 transition duration-300">
+                        <img src="img/nusainfra.png" alt="Nusa Infra Logo" class="h-8 w-auto mr-2">
+                        Nusa Infra
+                    </a>
+                </h1>
+                <p class="text-xs text-gray-600 mt-1 hidden md:block">Simplify Your Infrastructure. Empowering DevOps, Simply.</p>
+            </div>
+            <button class="md:hidden text-gray-900 focus:outline-none" onclick="toggleMenu()">
+                <i class="fas fa-bars text-2xl"></i>
+            </button>
+            <ul class="hidden md:flex space-x-6">
+                <li>
+                    <a href="index.html#services" class="hover:text-gray-700 transition duration-300"
+                      ><i class="fas fa-cogs mr-1"></i> Layanan</a
+                    >
+                </li>
+                <li>
+                    <a href="index.html#about" class="hover:text-gray-700 transition duration-300"
+                      ><i class="fas fa-info-circle mr-1"></i> Tentang</a
+                    >
+                </li>
+                <li>
+                    <a href="index.html#contact" class="hover:text-gray-700 transition duration-300"
+                      ><i class="fas fa-envelope mr-1"></i> Kontak</a
+                    >
+                </li>
+            </ul>
+            <div id="mobile-menu" class="hidden md:hidden absolute top-full left-0 w-full bg-white shadow-lg z-20">
+                <ul class="flex flex-col space-y-4 p-4">
+                    <li>
+                        <a href="index.html#services" class="hover:text-gray-700 transition duration-300 block py-2"
+                          ><i class="fas fa-cogs mr-1"></i> Layanan</a
+                        >
+                    </li>
+                    <li>
+                        <a href="index.html#about" class="hover:text-gray-700 transition duration-300 block py-2"
+                          ><i class="fas fa-info-circle mr-1"></i> Tentang</a
+                        >
+                    </li>
+                    <li>
+                        <a href="index.html#contact" class="hover:text-gray-700 transition duration-300 block py-2"
+                          ><i class="fas fa-envelope mr-1"></i> Kontak</a
+                        >
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section id="hero" class="min-h-screen bg-gradient-to-r from-blue-50 via-white to-blue-50 text-gray-900 flex items-center pt-0 md:pt-20">
+        <div class="max-w-6xl mx-auto px-4 w-full flex flex-col md:flex-row items-center justify-between flex-wrap gap-8">
+            <div class="flex-1 max-w-lg mb-8">
+                <h2 class="text-4xl font-bold mb-4">Bootcamp DevOps 3 Bulan</h2>
+                <p class="text-xl mb-8">
+                    Program intensif selama 3 bulan untuk menguasai DevOps dan infrastruktur modern. Dari dasar Linux hingga deployment Kubernetes, dengan proyek hands-on dan mentoring langsung.
+                </p>
+                <a
+                  href="https://wa.me/6283827936085?text=Saya%20tertarik%20dengan%20Bootcamp%20DevOps%203%20Bulan"
+                  target="_blank"
+                  class="bg-green-500 hover:bg-green-600 text-white px-8 py-3 rounded-lg transition duration-300 inline-flex items-center space-x-2"
+                >
+                    <i class="fab fa-whatsapp text-xl"></i>
+                    <span>Daftar Sekarang</span>
+                </a>
+            </div>
+            <div class="flex-1 max-w-md">
+                <img
+                  src="img/devops.jpg"
+                  alt="Bootcamp DevOps"
+                  class="w-full rounded-lg shadow-2xl"
+                />
+            </div>
+        </div>
+    </section>
+
+    <section id="curriculum" class="py-20 bg-white">
+        <div class="max-w-6xl mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12 text-gray-800">Kurikulum Bootcamp</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-gray-50 p-6 rounded-lg text-center shadow-lg">
+                    <i class="fab fa-linux text-4xl text-blue-500 mb-4"></i>
+                    <h3 class="text-xl font-semibold mb-3 text-gray-800">Linux Fundamentals</h3>
+                    <p class="text-gray-600">Penguasaan dasar Linux, shell scripting, dan manajemen sistem.</p>
+                </div>
+                <div class="bg-gray-50 p-6 rounded-lg text-center shadow-lg">
+                    <i class="fab fa-git-alt text-4xl text-blue-500 mb-4"></i>
+                    <h3 class="text-xl font-semibold mb-3 text-gray-800">Git & Version Control</h3>
+                    <p class="text-gray-600">Teknik branching, merging, dan kolaborasi dengan Git.</p>
+                </div>
+                <div class="bg-gray-50 p-6 rounded-lg text-center shadow-lg">
+                    <i class="fas fa-code-branch text-4xl text-blue-500 mb-4"></i>
+                    <h3 class="text-xl font-semibold mb-3 text-gray-800">CI/CD Pipelines</h3>
+                    <p class="text-gray-600">Implementasi continuous integration dan deployment dengan tools seperti Jenkins atau GitHub Actions.</p>
+                </div>
+                <div class="bg-gray-50 p-6 rounded-lg text-center shadow-lg">
+                    <i class="fab fa-docker text-4xl text-blue-500 mb-4"></i>
+                    <h3 class="text-xl font-semibold mb-3 text-gray-800">Docker Containerization</h3>
+                    <p class="text-gray-600">Membuat, mengelola, dan mengoptimalkan container Docker.</p>
+                </div>
+                <div class="bg-gray-50 p-6 rounded-lg text-center shadow-lg">
+                    <i class="fas fa-dharmachakra text-4xl text-blue-500 mb-4"></i>
+                    <h3 class="text-xl font-semibold mb-3 text-gray-800">Kubernetes Orchestration</h3>
+                    <p class="text-gray-600">Deployment, scaling, dan manajemen aplikasi di Kubernetes cluster.</p>
+                </div>
+                <div class="bg-gray-50 p-6 rounded-lg text-center shadow-lg">
+                    <i class="fas fa-chart-line text-4xl text-blue-500 mb-4"></i>
+                    <h3 class="text-xl font-semibold mb-3 text-gray-800">Monitoring & Logging</h3>
+                    <p class="text-gray-600">Setup monitoring dengan Prometheus, Grafana, dan ELK Stack.</p>
+                </div>
+                <div class="bg-gray-50 p-6 rounded-lg text-center shadow-lg">
+                    <i class="fab fa-linux text-4xl text-blue-500 mb-4"></i>
+                    <h3 class="text-xl font-semibold mb-3 text-gray-800">Ansible Automation</h3>
+                    <p class="text-gray-600">Automate konfigurasi dan deployment dengan Ansible.</p>
+                </div>
+                <div class="bg-gray-50 p-6 rounded-lg text-center shadow-lg">
+                    <img src="https://img.icons8.com/ios-filled/24/3498db/terraform.png" alt="Terraform" class="text-4xl text-blue-500 mb-4 mx-auto">
+                    <h3 class="text-xl font-semibold mb-3 text-gray-800">Terraform IaC</h3>
+                    <p class="text-gray-600">Infrastructure as Code untuk provisioning cloud resources.</p>
+                </div>
+                <div class="bg-gray-50 p-6 rounded-lg text-center shadow-lg">
+                    <i class="fas fa-infinity text-4xl text-blue-500 mb-4"></i>
+                    <h3 class="text-xl font-semibold mb-3 text-gray-800">GitOps with FluxCD & ArgoCD</h3>
+                    <p class="text-gray-600">Implementasi GitOps untuk continuous delivery menggunakan FluxCD dan ArgoCD pada Kubernetes.</p>
+                </div>
+                <div class="bg-gray-50 p-6 rounded-lg text-center shadow-lg">
+                    <i class="fab fa-google text-4xl text-blue-500 mb-4"></i>
+                    <h3 class="text-xl font-semibold mb-3 text-gray-800">Google Cloud Platform</h3>
+                    <p class="text-gray-600">Deployment infrastruktur DevOps di GCP, termasuk GKE, Cloud Build, dan IAM.</p>
+                </div>
+                <div class="bg-gray-50 p-6 rounded-lg text-center shadow-lg">
+                    <i class="fab fa-aws text-4xl text-blue-500 mb-4"></i>
+                    <h3 class="text-xl font-semibold mb-3 text-gray-800">Amazon Web Services</h3>
+                    <p class="text-gray-600">Manajemen cloud dengan AWS: EKS, CodePipeline, ECS, dan services terkait DevOps.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="benefits" class="py-20 bg-gray-50">
+        <div class="max-w-6xl mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12 text-gray-800">Manfaat Bergabung</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div>
+                    <ul class="space-y-4 text-lg text-gray-700">
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-green-500 mr-3 mt-1"></i>
+                            <span>Proyek hands-on real-world untuk portofolio kamu.</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-green-500 mr-3 mt-1"></i>
+                            <span>Mentoring 1-on-1 dengan expert DevOps.</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-green-500 mr-3 mt-1"></i>
+                            <span>Sertifikat penyelesaian dari Nusa Infra.</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-green-500 mr-3 mt-1"></i>
+                            <span>Akses komunitas alumni dan update materi seumur hidup.</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="flex-1">
+                    <p class="text-gray-700 mb-8 text-lg">
+                        Bootcamp ini dirancang untuk developer, sysadmin, atau siapa saja yang ingin berkarir di DevOps. Durasi 3 bulan (12 minggu), format online dengan sesi live dan materi mandiri.
+                    </p>
+                    <div class="bg-yellow-50 border-l-4 border-yellow-400 p-4">
+                        <h3 class="text-2xl font-bold text-blue-800 mb-4 text-center">HARGA KELAS</h3>
+                        <div class="flex items-center justify-center mb-4">
+                            <span class="text-3xl font-bold text-gray-500 line-through mr-4">Rp 6.000.000</span>
+                        <span class="bg-orange-500 text-white px-4 py-2 rounded-full text-sm font-bold">58% OFF</span>
+                        </div>
+                        <h2 class="text-4xl font-bold text-blue-800 text-center mb-4">Rp 2.500.000</h2>
+                        <p class="text-gray-600 text-center text-sm">Fleksibel untuk individu atau tim perusahaan.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="info-kelas" class="py-20 bg-white">
+        <div class="max-w-6xl mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-12 text-gray-800">Informasi Kelas</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div class="bg-gray-50 p-6 rounded-lg text-center shadow-lg">
+                    <i class="fas fa-calendar-days text-4xl text-blue-500 mb-4"></i>
+                    <h3 class="text-xl font-semibold mb-3 text-gray-800">3 Bulan</h3>
+                    <p class="text-gray-600">Durasi program: 3 bulan (12 minggu)</p>
+                </div>
+                <div class="bg-gray-50 p-6 rounded-lg text-center shadow-lg">
+                    <i class="fas fa-list text-4xl text-blue-500 mb-4"></i>
+                    <h3 class="text-xl font-semibold mb-3 text-gray-800">36 Sesi</h3>
+                    <p class="text-gray-600">Total 36 sesi interaktif</p>
+                </div>
+                <div class="bg-gray-50 p-6 rounded-lg text-center shadow-lg">
+                    <i class="fas fa-repeat text-4xl text-blue-500 mb-4"></i>
+                    <h3 class="text-xl font-semibold mb-3 text-gray-800">3 Kali Seminggu</h3>
+                    <p class="text-gray-600">Jadwal: 3 kali dalam 1 minggu</p>
+                </div>
+                <div class="bg-gray-50 p-6 rounded-lg text-center shadow-lg">
+                    <i class="fas fa-clock text-4xl text-blue-500 mb-4"></i>
+                    <h3 class="text-xl font-semibold mb-3 text-gray-800">19:30 - 21:30</h3>
+                    <p class="text-gray-600">Waktu: 19:30 - 21:30 WIB</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="cta" class="py-20 bg-white text-center">
+        <div class="max-w-6xl mx-auto px-4">
+            <h2 class="text-3xl font-bold mb-6 text-gray-800">Siap Mulai Perjalanan DevOps Kamu?</h2>
+             <p class="text-gray-600 mb-12 text-lg">
+                 Daftar sekarang dan transformasikan karir kamu dengan keterampilan DevOps terkini.
+             </p>
+            <a
+              href="https://wa.me/6283827936085?text=Saya%20ingin%20daftar%20Bootcamp%20DevOps%203%20Bulan"
+              target="_blank"
+              class="bg-blue-500 hover:bg-blue-600 text-white px-8 py-3 rounded-lg transition duration-300 inline-flex items-center space-x-2 text-lg"
+            >
+                <i class="fab fa-whatsapp text-xl"></i>
+                <span>Daftar Bootcamp</span>
+            </a>
+        </div>
+    </section>
+
+    <footer class="bg-gray-900 text-gray-300 py-12">
+        <div class="max-w-6xl mx-auto px-4 grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div>
+                <h3 class="text-white text-xl font-bold mb-4">Nusa Infra</h3>
+                <p class="text-gray-400 mb-6">
+                    Nusa Infra hadir sebagai spesialis DevOps dan infrastruktur modern, menyediakan layanan IT profesional untuk kebutuhan perusahaan Anda.
+                </p>
+            </div>
+            <div></div>
+            <div class="text-right">
+                <h4 class="text-white font-semibold mb-4 text-center">Solutions</h4>
+                <ul class="space-y-2 text-gray-400 inline-block text-left">
+                    <li><a href="index.html#services" class="hover:text-white transition duration-300">Mentoring 1on1</a></li>
+                    <li><a href="index.html#services" class="hover:text-white transition duration-300">Training di Perusahaan</a></li>
+                    <li><a href="index.html#services" class="hover:text-white transition duration-300">Instalasi & Migrasi ke Kubernetes</a></li>
+                    <li><a href="index.html#services" class="hover:text-white transition duration-300">Konsultasi DevOps</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="max-w-6xl mx-auto px-4 mt-12 border-t border-gray-700 pt-6 text-center text-gray-500 text-sm">
+            Copyright &copy; <strong>Nusa Infra</strong> All Rights Reserved
+        </div>
+    </footer>
+    <script>
+        function toggleMenu() {
+            const menu = document.getElementById('mobile-menu');
+            menu.classList.toggle('hidden');
+        }
+    </script>
+</body>
+</html>
