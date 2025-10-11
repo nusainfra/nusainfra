@@ -1,4 +1,4 @@
-# TODO: Landing Page Updates - Tentang Kami Mobile Fix, Navbar Logo, and Bootcamp Page
+# TODO: Landing Page Updates - Tentang Kami Mobile Fix, Navbar Logo, Bootcamp Page, and Tools Section
 
 ## Steps:
 - [x] Update the inner div class in the `#about` section of `index.html` from `"flex flex-wrap items-center gap-12"` to `"flex flex-col md:flex-row items-center gap-12"` to ensure 1-column stacking on mobile.
@@ -15,5 +15,7 @@
 - [x] Make logo image and "Nusa Infra" text clickable to index.html in index.html navbar.
 - [x] Remove "Beranda" and "Professional" buttons from desktop and mobile navbar menus in bootcamp-devops.html.
 - [x] Make logo image and "Nusa Infra" text clickable to index.html in bootcamp-devops.html navbar.
-- [ ] Verify changes: Test Tentang Kami mobile layout, navbar logo display, Bootcamp link navigation, new page load/responsiveness, and updated navbar (simplified menu, clickable logo).
-- [ ] Update this TODO.md to mark completion and close the task.
+- [x] Add "Tools Kami Gunakan" scrolling marquee section before footer in index.html with all 16 tool images from img/tools (duplicated for loop).
+- [x] Add identical "Tools Kami Gunakan" scrolling marquee section before footer in bootcamp-devops.html.
+- [x] Verify changes: Test Tentang Kami mobile layout, navbar logo display, Bootcamp link navigation, new page load/responsiveness, updated navbar (simplified menu, clickable logo), and tools section animation.
+- [x] Update this TODO.md to mark completion and close the task.
