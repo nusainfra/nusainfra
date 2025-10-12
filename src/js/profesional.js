@@ -1,13 +1,6 @@
 document.addEventListener('DOMContentLoaded', function() {
     const data = [
         {
-            "id": 1,
-            "name": "Adhitiha Irvan",
-            "photo": "img/profesional/adhithia.jpeg",
-            "role": "Site Reliability Engineer",
-            "company": "PT Aplikanusa Lintasarta"
-        },
-        {
             "id": 2,
             "name": "Aditia Darmita",
             "photo": "img/profesional/adhithia.jpeg",
