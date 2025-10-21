@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', function() {
         {
             "id": 2,
             "name": "Aditia Darmita",
-            "photo": "img/profesional/adhithia.jpeg",
+            "photo": "img/profesional/aditia.jpg",
             "role": "Security Engineer",
             "company": "PT Allo Fresh Indonesia"
         },
