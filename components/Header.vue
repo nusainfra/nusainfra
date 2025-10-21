@@ -20,7 +20,7 @@
           <i class="fas fa-envelope mr-1"></i> nusa.infra@gmail.com
         </span>
         <span class="text-gray-400 flex items-center">
-          <i class="fab fa-whatsapp mr-1"></i> 0838 2793 6085
+          <i class="fab fa-whatsapp mr-1"></i> 0877-8574-8085
         </span>
       </div>
     </div>

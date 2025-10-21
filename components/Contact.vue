@@ -16,7 +16,7 @@
             </div>
             <div class="flex items-center">
               <i class="fab fa-whatsapp text-green-400 mr-3 text-lg"></i>
-              <span>0838 2793 6085</span>
+              <span>0877-8574-8085</span>
             </div>
             <div class="flex items-center">
               <i class="fab fa-linkedin text-blue-600 mr-3 text-lg"></i>
